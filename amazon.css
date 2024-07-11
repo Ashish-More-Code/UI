@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+    margin: 0;
+    /* Remove default body margin */
+}
+
+p {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #131921;
+    display: flex;
+    padding: 3px;
+}
+
+.items {
+    display: inline-block;
+    margin: 5px;
+}
+
+span {
+    position: relative;
+}
+
+
+
+#atext {
+    font: bold;
+    font-family: Nunito Sans;
+    color: white;
+    font-size: 12px;
+}
+
+#btext {
+    font: bold;
+    color: white;
+    font-family: Nunito Sans;
+    size: 10px;
+}
+
+img {
+    align-content: center;
+    padding-top: 5px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+input[type=submit] {
+    width: 20px;
+    background-color: #ffe476;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+input[type=text] {
+    width: 40%;
+    height: 20px;
+    border: 2px;
+    padding: 9px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    margin-right: 0px;
+
+}
+
+.search-bar {
+    width: 700px;
+    height: 40px;
+    margin: 3px;
+    margin-left: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+.search-bar input[type="search"] {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.nav-drop-down {
+    margin: 1;
+    width: 50px;
+    border: #ddd;
+    font-size: 12px;
+    align-items: center;   
+    border: none;
+    border-radius: 2px;
+    background-color: #e8e6e6;
+}
+.button {
+    background-color: #FEBD69;; /* Green */
+    border: none;
+    width: 8%;
+    color: white;
+    font-size: 16px;
+    
+    
+  }
+.language{
+    border: #ddd;
+    border-style: none;
+    height: 40px;
+    background-color: #131921;
+    color: #f7f7f7;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.demo{
+    border: #ddd;
+    border-style: none;
+    background-color: #131921;
+    color: #f7f7f7;
+    border-radius: 4px;
+}
+.logo{
+    margin: 5px;
+    height: 35px;
+    width: 120px;
+}
